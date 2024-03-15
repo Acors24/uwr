@@ -1,0 +1,14 @@
+clearscreen window hideturtle
+:i = 0
+repeat 144 [
+  setlabelheight :i
+  penup
+  fd :i * :i / 30
+  label "Logo
+  bk :i * :i / 30
+  pendown
+  rt 10
+  wait 5
+  :i = :i + 2
+]
+showturtle

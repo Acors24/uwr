@@ -1,0 +1,9 @@
+clearscreen window hideturtle penup
+repeat 20 [
+    setlabelheight 50
+    bk 70
+    label "Logo
+    lt 18
+    wait 5
+]
+showturtle
